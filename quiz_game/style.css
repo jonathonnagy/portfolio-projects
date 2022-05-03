@@ -1,0 +1,39 @@
+.container {
+
+    background: rgb(217, 148, 233);
+    background: linear-gradient(90deg, rgba(217, 148, 233, 1) 31%, rgba(87, 0, 255, 1) 100%);
+    text-align: center;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.new-game-btn,
+.skip-btn {
+    background-color: #A9A9A9;
+    padding: 10px;
+    color: #483D8A;
+}
+
+.answers {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.answers input {
+    background-color: #483D8A;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.total-prize,
+.current-round-prize {
+    text-align: left;
+}
