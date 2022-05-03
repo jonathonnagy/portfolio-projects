@@ -1,0 +1,114 @@
+:root {
+    --light-blue: #76cdd8;
+    --glow-blue: #24d4d4;
+    --ligth-green: #009999;
+}
+
+section.row:nth-child(4),
+section.row:nth-child(5) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section:hover:nth-child(-n+3) {
+    color: var(--glow-blue)
+}
+
+section:hover:nth-child(-n+3):before {
+    content: "";
+    border-left: 98px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 100px solid var(--light-blue);
+    position: absolute;
+    left: 91.5%;
+}
+
+section:hover:nth-child(-n+2):after {
+    content: "";
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid var(--light-blue);
+    position: absolute;
+    width: 101px;
+    right: 91.1%;
+}
+
+section:nth-child(6)>div:nth-child(2) {
+    top: -4rem;
+}
+
+section:nth-child(6)>div:last-child {
+    top: -7rem;
+    z-index: -1;
+}
+
+h2.mb-4 {
+    color: var(--light-blue);
+}
+
+.tm-col-md-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tm-bg-color-primary {
+    background-color: var(--light-blue);
+}
+
+.btn {
+    background-color: var(--ligth-green);
+    border: 0
+}
+
+.btn-primary:hover {
+    background-color: var(--light-blue)
+}
+
+.btn-secondary:hover {
+    background-color: var(--glow-blue)
+}
+
+.container img:nth-child(1) {
+    transition: 1s;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+
+.tm-pricing-header {
+    background-color: var(--ligth-green);
+}
+
+.tm-pricing-table {
+    border-color: var(--ligth-green);
+}
+
+.tm-pricing-table:hover {
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.tm-pricing-body:hover .tm-pricing-discount {
+    display: block;
+}
+
+.tm-pricing-discount__star {
+    color: red;
+}
+
+.tm-pricing-discount__text {
+    color: var(--light-blue)
+}
+
+.form-control:focus {
+    border-color: #24d4d4;
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.tm-form-header {
+    background-color: var(--glow-blue);
+}
+
+.tm-form-footer {
+    background-color: var(--ligth-green);
+}
