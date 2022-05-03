@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+.header {
+  background-color: #81fe48;
+  background-image: url("./back.png");
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.5) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.5) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.5) 0px 2px 1px,
+    rgba(0, 0, 0, 0.5) 0px 4px 2px, rgba(0, 0, 0, 0.5) 0px 8px 4px,
+    rgba(0, 0, 0, 0.5) 0px 16px 8px, rgba(0, 0, 0, 0.5) 0px 32px 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15px;
+  padding-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 75vw;
+}
+
+.title {
+  width: 50vw;
+}
+
+.dataBody {
+  background-image: url("./wall3.png");
+  background-size: 200px;
+
+  /*
+  background-image: url("./wall2.jpg");
+  background-size: 800px;
+  */
+}
+
+.sectionTitle {
+  background-image: url("./titleback.png");
+  background-size: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #22a2bd;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Creepster", cursive;
+  letter-spacing: 0.2em;
+  text-shadow: 4px 0 black, 0 4px black, 4px 0 black, 0 4px black;
+  margin-top: 0;
+  padding: 40px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.sectionTitle p {
+  margin: 0;
+
+  border-radius: 2px;
+  padding: 10px 0;
+  width: 400px;
+  margin: auto;
+}
+
+.dataBody h1 {
+  color: #22a2bd;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Creepster", cursive;
+  letter-spacing: 0.2em;
+  text-shadow: 4px 0 black, 0 4px black, 4px 0 black, 0 4px black;
+  margin-top: 0;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+  background-image: url("./stars.jpg");
+  background-size: 100px;
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar button {
+  /*background-color: #81fe48;*/
+  background-color: transparent;
+  border: 0;
+  margin: 10px;
+  height: 30px;
+
+  background-image: url("./portalnav.png");
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+  font-size: 25px;
+  font-family: "Creepster", cursive;
+
+  width: 200px;
+  height: 100px;
+}
+
+.navImg {
+  height: 40px;
+  margin-right: 30px;
+}
+.navImg2 {
+  height: 40px;
+  margin-left: 30px;
+  transform: scaleX(-1);
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  border-top: 2px #81fe48 solid;
+}
+
+.pagination button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #81fe48;
+  font-weight: bolder;
+}
+
+.pagination button:disabled {
+  background-color: lightslategray;
+}
+
+.paginationNumbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 590px;
+}
+
+.paginationNumbers div {
+  margin: 7px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 30px;
+}
+
+.pagNum {
+  background-color: lightslategray;
+  border-radius: 50%;
+  /*
+  padding: 3px;
+  background-image: url("./greyportal.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3px;
+  font-weight: bolder;
+  */
+}
+
+.currentPage {
+  background-color: #81fe48;
+  border-radius: 50%;
+  /*
+  background-image: url("./portal.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3px;
+  font-weight: bolder;
+  */
+}
+
+.pagination button {
+  margin: 5px;
+}
+
+.points {
+  color: white;
+  letter-spacing: 0.1em;
+}

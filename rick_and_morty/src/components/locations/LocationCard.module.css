@@ -1,0 +1,33 @@
+.locList {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.locCard {
+  background-color: #81fe48;
+  width: 350px;
+  margin: 20px;
+  box-shadow: 10px 10px 7.5px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoTitle {
+  color: #22a2bd;
+  width: 80px;
+}
+
+.infoData {
+  padding-left: 40px;
+}
+
+body {
+  font-family: "Creepster", cursive;
+  font-size: large;
+}

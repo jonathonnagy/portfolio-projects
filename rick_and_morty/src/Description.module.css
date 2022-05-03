@@ -1,0 +1,52 @@
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  padding-bottom: 40px;
+}
+
+.desCard {
+  width: 300px;
+  padding: 25px 10px;
+  margin: 15px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.desCard:nth-child(1) {
+  background-color: #81fe48;
+}
+.desCard:nth-child(2) {
+  background-color: black;
+}
+.desCard:nth-child(3) {
+  background-color: #22a2bd;
+}
+
+.desCard img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.desCardWhite {
+  -webkit-filter: drop-shadow(2px 1px 0 black) drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(2px 1px 0 black) drop-shadow(-1px -1px 0 black);
+}
+
+.desCardBlack {
+  -webkit-filter: drop-shadow(2px 1px 0 white) drop-shadow(-1px -1px 0 white);
+  filter: drop-shadow(2px 1px 0 white) drop-shadow(-1px -1px 0 white);
+  align-self: end;
+}
+
+.desCard p {
+  color: white;
+  padding: 0 15px;
+  text-align: justify;
+}
