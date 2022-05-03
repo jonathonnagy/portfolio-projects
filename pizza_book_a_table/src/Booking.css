@@ -1,0 +1,66 @@
+#booking {
+  min-height: 650px;
+  background-image: url("./page/background_booking.jpg");
+  background-size: 100%;
+  padding-bottom: 20px;
+}
+
+.sectionTitle3 {
+  background-image: url("./page/opt2.png");
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  padding: 10px;
+  width: 320px;
+  height: 140px;
+}
+
+.sectionTitle3 h1 {
+  color: white;
+  font-family: "Orelega One", cursive;
+  text-align: center;
+  transform: rotate(-5deg);
+  padding-top: 12px;
+  font-size: 40px;
+}
+
+#oil {
+  background-image: url("./page/icon_oil.png");
+
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+}
+
+@media only screen and (max-width: 579px) {
+  #oil {
+    background-size: 40%;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    margin-top: 220px;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width: 938px) {
+  #oil {
+    background-size: 60%;
+    background-position: top;
+    right: 0;
+    height: 400px;
+    width: 400px;
+    margin-top: 180px;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  #oil {
+    background-size: 80%;
+    background-position: top;
+    right: 0;
+    height: 400px;
+    width: 400px;
+    margin-top: 80px;
+  }
+}

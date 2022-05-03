@@ -1,0 +1,95 @@
+#intro {
+  padding: 10px;
+  padding-top: 40px;
+
+  background-image: url("./page/background_intro.jpg");
+  background-size: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.sectionTitle {
+  background-image: url("./page/opt1.png");
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 10px;
+  width: 320px;
+  height: 140px;
+}
+
+.sectionTitle h1 {
+  color: white;
+  font-family: "Orelega One", cursive;
+  text-align: center;
+  transform: rotate(-5deg);
+  padding-top: 15px;
+}
+
+.introContent {
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.introPic {
+  max-width: 300px;
+  align-self: center;
+  margin: 10px auto;
+  border: 3px red solid;
+}
+
+.introText {
+  margin: 0 20px;
+}
+
+.introText h2 {
+  color: #ff0000;
+  text-transform: uppercase;
+}
+
+.introText p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 655px) {
+  .introContent {
+    flex-wrap: wrap;
+  }
+}
+
+#introIcons {
+  background-image: url("./page/icon_basil.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+@media screen and (min-width: 1030px) {
+  #introIcons {
+    height: 200px;
+    width: 200px;
+    right: 10vw;
+  }
+}
+@media screen and (max-width: 1029px) and (min-width: 680px) {
+  #introIcons {
+    height: 200px;
+    width: 200px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 679px) and (min-width: 500px) {
+  #introIcons {
+    height: 100px;
+    width: 100px;
+    right: 0;
+    margin-top: 80px;
+  }
+}

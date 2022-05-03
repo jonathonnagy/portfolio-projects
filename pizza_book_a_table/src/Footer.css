@@ -1,0 +1,116 @@
+#footer {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+
+  background-image: url("./page/background_footer.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 354px) {
+  #footer {
+    background-size: 300%;
+  }
+}
+@media only screen and (min-width: 355px) and (max-width: 544px) {
+  #footer {
+    background-size: 200%;
+  }
+}
+@media only screen and (min-width: 545px) and (max-width: 689px) {
+  #footer {
+    background-size: 150%;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  #footer {
+    background-size: 100%;
+  }
+}
+
+#footerContainer {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#footerDatas {
+  font-weight: bolder;
+  text-shadow: rgb(167, 167, 167) 1px 0 10px;
+}
+
+iframe {
+  border: 5px black solid;
+  margin: 0;
+}
+
+@media only screen and (max-width: 450px) {
+  #footerDatas {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #footerContainer {
+    padding-top: 20px;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 750px) {
+  #footerDatas {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #footerContainer {
+    padding-top: 20px;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  #footerIcon {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-image: url("./page/icon_broc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 751px) {
+  #footerDatas {
+    font-size: 25px;
+  }
+  #footerContainer {
+    padding-top: 60px;
+    flex-direction: row;
+    margin-bottom: 60px;
+  }
+
+  #footerIcon {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-image: url("./page/icon_broc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.footerIcon {
+  width: 44px;
+  margin: 0 10px;
+}

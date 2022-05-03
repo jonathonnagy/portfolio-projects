@@ -1,0 +1,192 @@
+#buttonBooking {
+  background-color: black;
+  color: white;
+
+  border: 0px;
+  border-radius: 40px;
+  z-index: 20;
+
+  font-weight: bold;
+  font-family: "Architects Daughter", cursive;
+}
+
+#buttonBooking:hover {
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+
+.buttonSec {
+  background-image: url("./page/buttonback2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+}
+
+@media only screen and (min-width: 580px) {
+  #buttonBooking {
+    width: 390px;
+    height: 100px;
+    margin: 30px auto;
+    font-size: 30px;
+  }
+
+  .buttonSec {
+    width: 530px;
+    height: 170px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  #buttonBooking {
+    width: 270px;
+    height: 80px;
+    margin: 40px auto;
+    font-size: 25px;
+  }
+
+  .buttonSec {
+    width: 390px;
+    height: 170px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+#jumpBooking {
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  margin-top: 700px;
+}
+
+/************************/
+
+/*
+#section2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 50%;
+  background-color: #fff7af;
+}
+
+#section2 h2 {
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+}
+
+.left-right-container {
+  display: flex;
+  margin: 150px 0 50px 0;
+}
+
+.left-container img {
+  height: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.064);
+  border-radius: 11% 10% 10% 63% / 8% 1% 1% 39%;
+}
+*/
+
+#Form {
+  display: grid;
+  justify-content: center;
+  min-height: 1000px;
+  margin: auto;
+  margin-top: 300px;
+  background: #f8f4e5;
+
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  box-shadow: 16px -1px 0px 0px #ffaf2d, 20px -3px 9px 4px rgb(0 0 0);
+}
+
+@media only screen and (max-width: 579px) {
+  #Form {
+    width: 40vw;
+    padding: 50px 80px;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  #Form {
+    width: 50vw;
+    padding: 50px 100px;
+  }
+}
+
+#Form h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 14pt;
+  line-height: 25pt;
+  font-family: "Fjalla One";
+  margin-bottom: 25pt;
+  border: none;
+  border-bottom: 5px solid rgba(0, 0, 0, 1);
+  background: #f8f4e5;
+  min-width: 250px;
+  padding-left: 5px;
+  outline: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+input:focus {
+  border-bottom: 5px solid #ffaf2d;
+}
+
+#submit {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  line-height: 28pt;
+  font-family: "Fjalla One";
+  padding: 0 20px;
+  background: #ffaf2d;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px #95a4ff, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+}
+
+#submit:hover {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+#submit::selection {
+  background: #ffc8ff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  border-bottom: 5px solid #95a4ff;
+  -webkit-text-fill-color: #2a293e;
+}
+/*
+
+@media screen and (max-width: 1380px) {
+  .left-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .reserve {
+    padding: 50px 10px;
+  }
+}
+*/
