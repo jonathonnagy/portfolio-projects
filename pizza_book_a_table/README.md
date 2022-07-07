@@ -14,7 +14,7 @@
 </ul><ul>
 <li>React</li>
 </ul><h2>Screenshots</h2>
-<p><img src="https://i.postimg.cc/xCXv5TwQ/Screen-Shot-2022-07-07-at-14-04-34.png" alt=""></p><p><img src="https://i.postimg.cc/3wcpkQdc/Screen-Shot-2022-07-07-at-14-04-58.png" alt=""></p><p><img src="https://i.postimg.cc/rpmxywF4/Screen-Shot-2022-07-07-at-14-05-06.png" alt=""></p><p><img src="https://i.postimg.cc/Pf8b8Jbz/Screen-Shot-2022-07-07-at-14-05-19.png" alt=""></p><h2>Setup</h2>
+<p><img src="https://i.postimg.cc/RhMPvnqB/Screen-Shot-2022-07-07-at-14-04-34.png" alt=""></p><p><img src="https://i.postimg.cc/02yt3mLG/Screen-Shot-2022-07-07-at-14-04-58.png" alt=""></p><p><img src="https://i.postimg.cc/NG4JpbPf/Screen-Shot-2022-07-07-at-14-05-06.png" alt=""></p><p><img src="https://i.postimg.cc/mk8mk2FF/Screen-Shot-2022-07-07-at-14-05-19.png" alt=""></p><h2>Setup</h2>
 <p>Clone down this repository. You will need node and npm installed globally on your machine.</p><h5>Steps</h5><ul>
 <li>npm install</li>
 </ul><ul>
