@@ -1,0 +1,238 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#pics {
+  display: inline-flex;
+  flex-wrap: wrap;
+  column-gap: 2vw;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+.galleryImage {
+  max-width: 220px;
+  max-height: 290px;
+}
+
+.galleryImageBox:hover {
+  opacity: 0.3;
+}
+
+.galleryImageBox {
+  width: 220px;
+  height: 290px;
+  background-color: #ababab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colors {
+  width: 30px;
+  height: 30px;
+}
+
+.colors-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.home-img {
+  height: 60vh;
+  /* width: 70vw; */
+}
+
+.listBox {
+  margin: 20px;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+.listBox {
+  width: 200px;
+}
+
+.searchBox button {
+  width: 100px;
+  height: 50px;
+}
+
+.popup {
+  z-index: 99;
+  position: fixed;
+}
+
+.popupTop {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.popupDataBox {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+
+  height: 40px;
+  margin: 20px 0px;
+}
+
+.popup img {
+  max-height: 500px;
+  max-width: 400px;
+  margin: 0px 10px;
+  object-fit: contain;
+}
+
+.popup h2 {
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.popup h3 {
+  color: navy;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100px;
+  margin: 0;
+}
+
+.popup p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.des {
+  background: white;
+
+  border-radius: 10px;
+  max-width: 525px;
+}
+
+.des h3 {
+  margin-top: 30px;
+}
+
+.galleryBox {
+  margin: 20px;
+}
+
+.tagsList {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 70%;
+}
+
+#home {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45em;
+
+  text-align: center;
+}
+
+.popupRight {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.popupLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.moreInfo {
+  display: flex;
+  column-gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  width: 120px;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.buttonInfo {
+  height: 25px;
+}
+
+.moreInfo:hover {
+  background-color: rgba(132, 145, 172, 1);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.popupLeft button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: black;
+}
+
+.close-icon {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  height: 30px;
+  width: 30px;
+  border: 2px black solid;
+}
+
+.close-icon:hover {
+  transform: scale(1.1);
+}
+.searchButton {
+  color: navy;
+  background-color: white;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 0.5px black solid;
+  text-transform: uppercase;
+}
+
+.searchButton:hover {
+  transform: scale(1.05);
+}

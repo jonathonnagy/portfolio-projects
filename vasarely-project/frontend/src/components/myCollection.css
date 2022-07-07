@@ -1,0 +1,163 @@
+.collectBase {
+  display: flex;
+  flex-direction: row;
+}
+
+.collectRight {
+  background-color: white;
+  padding: 30px;
+  min-width: 420px;
+  border-radius: 10px;
+}
+
+.collectButtons {
+  display: flex;
+  column-gap: 20px;
+
+  justify-content: space-between;
+}
+
+.roundButton {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 0;
+}
+.roundButton:hover {
+  transform: scale(1.1);
+}
+
+#infoButton {
+  background-image: url("information.png");
+  background-color: rgb(33, 33, 129);
+}
+#tagButton {
+  background-image: url("tag.png");
+  background-color: rgb(33, 33, 129);
+}
+#deleteButton {
+  background-image: url("bin.png");
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px black solid;
+}
+#deleteButton:hover {
+  transform: scale(1.1);
+}
+
+.tagsList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.tagBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: space-evenly;
+  min-height: 100px;
+  align-items: flex-start;
+}
+.tag {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  background-color: black;
+  color: white;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag div {
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.tag div:hover {
+  transform: scale(1.1);
+  color: red;
+}
+
+.tagInput input {
+  height: 20px;
+  border: 1px black solid;
+}
+.tagInput button {
+  color: navy;
+  font-weight: 700;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+
+.tagInput button:hover {
+  transition: all 0.35s ease-in-out;
+  background: rgb(7, 22, 71);
+  color: white;
+  transform: scale(1.1);
+}
+
+.tagInput {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  background-color: rgba(132, 145, 172, 1);
+  padding: 10px;
+  justify-content: center;
+  width: 100%;
+}
+
+#coll {
+  text-align: center;
+  font-size: large;
+}
+
+#coll > div {
+  margin-bottom: 20px;
+}
+
+#coll > div > input {
+  font-size: large;
+  margin-top: 5px;
+
+  width: 15%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+}
+
+#coll > div > button {
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: 10px 22px;
+
+  background: rgb(132, 145, 172);
+  color: black;
+  outline: none;
+  cursor: pointer;
+
+  font-size: 20px;
+}
+
+#coll > div > button:hover {
+  transition: all 0.35s ease-in-out;
+  background: rgb(7, 22, 71);
+  color: white;
+}
