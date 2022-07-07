@@ -1,70 +1,32 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Pizza book a table</h1>
+<p>This project is a Pizza Restaurant webpage to introduce and share the available selection of Pizza's.</p><h2>General Information</h2>
+<ul>
+<li>This is a business site for a pizza restaurant, that contains a menu of the available pizza types. There is a menu point where the user can fill out a form and book a table at the restaurant (Unfinished).</li>
+</ul><ul>
+<li>The site solves a problem for restaurant's table bookings.</li>
+</ul><h2>Technologies Used</h2>
+<ul>
+<li>HTML</li>
+</ul><ul>
+<li>CSS</li>
+</ul><ul>
+<li>JavaScript</li>
+</ul><ul>
+<li>React</li>
+</ul><h2>Screenshots</h2>
+<p><img src="https://i.postimg.cc/xCXv5TwQ/Screen-Shot-2022-07-07-at-14-04-34.png" alt=""></p><p><img src="https://i.postimg.cc/3wcpkQdc/Screen-Shot-2022-07-07-at-14-04-58.png" alt=""></p><p><img src="https://i.postimg.cc/rpmxywF4/Screen-Shot-2022-07-07-at-14-05-06.png" alt=""></p><p><img src="https://i.postimg.cc/Pf8b8Jbz/Screen-Shot-2022-07-07-at-14-05-19.png" alt=""></p><h2>Setup</h2>
+<p>Clone down this repository. You will need node and npm installed globally on your machine.</p><h5>Steps</h5><ul>
+<li>npm install</li>
+</ul><ul>
+<li>npm start</li>
+</ul><h2>Usage</h2>
+<p>Open http://localhost:3000 to view it in your browser.</p>
+<p>The page will reload when you make changes. You may also see any lint errors in the console.</p><h2>Project Status</h2>
+<p>No longer working on it, as this was a practice project.</p><h2>Improvements</h2>
+<ul>
+<li>Finish the Book a table button to save a table.</li>
+</ul><h2>Features that can be added</h2>
+<ul>
+<li>Send a confirm email to the user.</li>
+</ul><h2>Contact</h2>
+<p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/nagyjon/"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a></p>
