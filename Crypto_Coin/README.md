@@ -1,5 +1,5 @@
 <h1>Crypto Coin Project (Fullstack with mongoDb)</h1>
-<p>This project is a webapplication to keep track of crypto coins.</p><h2>General Information</h2>
+<p>This project is a web application to keep track of crypto coins.</p><h2>General Information</h2>
 <ul>
 <li>This is a site for available Crypto coins from the CoinMarketCap API, save them to your own list, keep track of them, and create a portfolio of your transactions.
 </li>
