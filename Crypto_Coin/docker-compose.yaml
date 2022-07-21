@@ -1,0 +1,75 @@
+version: "3"
+services:
+  # db:
+  #   image: mongo:latest
+  #   ports:
+  #     - '27017:27017'
+  # backend:
+  #   build: ./backend
+  #   container_name: backend_c
+  #   ports:
+  #     - '4000:4000'
+  #   volumes:
+  #     - ./backend:/app
+  #     - ./app/node_modules
+  # frontend:
+  #   build: ./frontend
+  #   container_name: frontend_c
+  #   ports:
+  #     - '3000:3000'
+  #   volumes:
+  #     - ./frontend:/app
+  #     - ./app/node_modules
+  #   stdin_open: true
+  #   tty: true
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    container_name: mern-frontend
+    networks:
+      - mern-stack-net
+    volumes:
+      - ./frontend/src:/usr/app/src
+      - ./frontend/public:/usr/app/public
+    depends_on:
+      - backend
+    stdin_open: true
+    tty: true
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - CONNECTION_STRING=mongodb://db:27017/cryptoCoinDb
+    ports:
+      - 4000:4000
+    container_name: mern-backend
+    networks:
+      - mern-stack-net
+    volumes:
+      - ./backend/src:/usr/app/src
+    depends_on:
+      - db
+
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
+    container_name: mongo-db
+    networks:
+      - mern-stack-net
+    volumes:
+      - mongo-data:/data/db
+
+networks:
+  mern-stack-net:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local

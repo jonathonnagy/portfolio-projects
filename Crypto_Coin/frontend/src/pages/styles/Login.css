@@ -1,0 +1,76 @@
+.login-header {
+	z-index: 1;
+}
+
+.login-wrapper {
+  position: absolute;
+  background-image: url(../../images/login-bg.png);
+  /* background-repeat: no-repeat; */
+  width: 100vw;
+  height: 100vh;
+  background-size: 50%;
+}
+
+.login-left {
+  position: absolute;
+  background-image: url(../../images/login-rocket.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+.login-right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.dog-walk-img {
+  position: absolute;
+  background-image: url(../../images/dog-walk.png);
+  width: 15%;
+  height: 20%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  bottom: 0;
+  right: 0;
+}
+
+.login-card {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #b5b5b5bb;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 40px;
+  margin-left: 400px;
+
+  -webkit-box-shadow: -44px 25px 12px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: -44px 25px 12px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: -44px 25px 12px 0px rgba(0, 0, 0, 0.46);
+}
+
+.login-card p {
+	font-size: 40px;
+	text-shadow: -14px 10px 14px rgba(0, 0, 0, 0.46);
+}
+
+.google-login-btn {
+	cursor: pointer;
+	width: 60%;
+	height: 30%;
+	border: 0; 
+	border-radius: 20px;
+	background-color: #CD8327;
+	font-size: 30px;
+
+	-webkit-box-shadow: -14px 10px 12px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: -14px 10px 12px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: -14px 10px 12px 0px rgba(0, 0, 0, 0.46);
+}
