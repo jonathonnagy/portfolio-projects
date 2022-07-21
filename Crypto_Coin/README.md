@@ -30,6 +30,7 @@
 <li>Jest</li>
 </ul><ul>
 <li>JWT</li>
+<li>Docker</li>
 </ul><h2>Screenshots</h2>
 <p><img src="https://i.postimg.cc/KcKwWRvz/Screen-Shot-2022-07-20-at-12-04-37.png" alt=""></p><p><img src="https://i.postimg.cc/KYqpqy6B/Screen-Shot-2022-07-20-at-12-04-46.png" alt=""></p><p><img src="https://i.postimg.cc/Gmj5DDzM/Screen-Shot-2022-07-20-at-12-04-58.png" alt=""><img src="https://i.postimg.cc/7LYQnLWq/Screen-Shot-2022-07-20-at-12-05-23.png" alt=""></p><h2>Setup</h2>
 <p>Clone down this repository. You will need node and npm installed globally on your machine.</p><h5>Steps</h5><ul>
